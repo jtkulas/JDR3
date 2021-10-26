@@ -20,7 +20,7 @@ affiliation:
     institution   : "Montclair State University"
 
 abstract: |
-  O*NET work characteristics were rated in terms of relevance, perception of demand, and perception as resource. 
+  O*NET work characteristics were rated in terms of relevance, perception of demand, and perception as resource. All the results of this current study match the stress-appraisal stuff. Next steps: 1) discuss results within stress-appraisal framework (Lazarus & Bookman), 2) different literature on challenge and hindrance demands. Job Demands Resources theory that says resources and demands are relatively universal is NOT consistent with these findings. JDR neglects the other 2 literatures. Analytically pull O*Net descriptors that reflect universal demands/resources (e.g., autonomy) and see how much variability there is on those. Maybe forget about cross-walk thing. 
   
 keywords          : "keywords"
 wordcount         : "X"
@@ -78,6 +78,17 @@ The other distinct possibility we expect we may observe is wide variability in t
 Thus, a fourth question of interest explores just that possibility: 
 
 >*Research Question 4*: Which O\*Net job characteristics show wide variability in assigned JD-R classification of resource, challenge, or hinderance. 
+
+## ALTERNATIVELY, Alicia's JDR vs stress model predictions
+
+Objective vs. Subjective Nature of Demands and Resources: The Role of Appraisal
+  
+  @searle2015merits note that the majority of the research on workplace demands is based on apriori classifications of demands. However, the stress experience, or process, described early on by @lazarus1984stress is grounded in the assumption that individual appraisals of stressors/demands vary. Their transactional theory or stress and coping states that people continuously appraise stimuli in their environments. An appraisal is the cognitive process whereby meaning is assigned to a stimulus. If a stimulus is appraised as a stressor (threat, challenge, potentially harmful), emotional distress leads to coping of some kind. This action to cope is also associated with another appraisal about the outcome itself and the process continues if the outcomes is not appraised as favorable [@lazarus1984stress]. The stress appraisal process suggests that classifying a job characteristic or environmental condition as an objective demand or resource might be in error. 
+  
+  We next consider the (limited) empirical evidence on this topic. First, some relatively recent research suggests that job demands and resources may not be universally appraised or assigned as such. Starting with job demands, @webster2011extending, for example, studied workload, role ambiguity, and role conflict demands, and found while that each could be appraised primarily as challenges or hindrances demands, they could also simultaneously be perceived as being both a challenge and hinderance to different degrees. While their study did include resources, it nonetheless points to individual difference on how people perceive stressors at work. Although part of a much larger study on retirement, @sonnega_comparison_2018 compared self-reported (subjective) ratings of degree of physical demand, stress, and need for intense concentration from the Health and Retirement Study with objective ratings from O*Net. Correlations physical demand (r = .52), stress (r = .10), and need for intense concentration (r = .14), again suggesting perhaps that our objective ratings of job demands (and resources) may be subject to a greater level of individual difference than assumed. Next considering resources, @schmitz_interpreting_2019 captured subjective and objective resources in their study of retirement also. Correlations of composite variables for the resources of autonomy (r = .12), recognition of work (r = .07), decision freedom (r = .08), and advancement (r = -.01), while significant, certainly do not reflect high levels of overlap. 
+  
+  We do acknowledge as well, that demands and resources are not necessarily consistent across days, or seasons, for many employees. @downes2021incorporating meta-analysis addresses this reality in depth, although it is beyond the scope of this project. 
+  
 
 ```{r study1}
 
