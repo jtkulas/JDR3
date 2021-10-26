@@ -163,12 +163,21 @@ Interestingly, we have not yet integrated this practical and accessible resource
 
 \begin{quote}
 \emph{Research Question 1}: Which O*Net job characteristics are consistently rated as job resources?
+\end{quote}
+
+\begin{quote}
 \emph{Research Question 2}: Which O*Net job characteristics are consistently rated as challenge demands?
+\end{quote}
+
+\begin{quote}
 \emph{Research Question 3}: Which O*Net job characteristics are consistently rated as hinderance demands?
 \end{quote}
 
 The other distinct possibility we expect we may observe is wide variability in the assignment of some job characteristics within the JD-R framework. In fact, a growing body of evidence suggests people may not universally experience job characteristics as challenges or hinderances (e.g., (Bakker \& Sanz-Vergel, 2013); {[}cavanaugh2000empirical{]}; (Gerich, 2017); (Podsakoff et al., 2007); (Webster et al., 2011)). Thus, a fourth question of interest explores just that possibility.
-Research Question 4: Which O*Net job characteristics show wide variability in assigned JD-R classification of resource, challenge, or hinderance.
+
+\begin{quote}
+\emph{Research Question 4}: Which O*Net job characteristics show wide variability in assigned JD-R classification of resource, challenge, or hinderance.
+\end{quote}
 
 \hypertarget{participants}{%
 \subsection{Participants}\label{participants}}
@@ -176,16 +185,6 @@ Research Question 4: Which O*Net job characteristics show wide variability in as
 Of the 785 Prolific panel individuals who initially accessed the survey link, 112 indicated that they were not interested, had more than 200 missing responses, or had 20 or more identical consecutive sequential responses ({\textbf{???}}). Applying a further screen regarding attention checks (there were four attention checks embedded throughout, asking respondents to indicate a specific answer) resulted in the retention of 568 respondents who constitute the current SIOP sample. 13.57\% had been in their referent job less than 6 months, 19.20\% between 6 months and a year, 49.12\% between one and five years, 13.27\% between 5 and 10 years, and 4.87\% more than 10 years.
 
 Ages ranged from 18 to 65 with an average of 28.18 years old (SD = 7.53). The survey offered a free-field gender identity category, although the sample predominantly self-identified as female (52.58\%) or male (46.83\%). Jobs were classified into the International Standard Classification of Occupations (ISCO) via the package labourR ({\textbf{???}}). We further grossly categorized these classifications into \enquote{knowledge} (\emph{n} = 320) versus \enquote{service} (\emph{n} = 214) occupations with knowledge workers being ISCO classifications of: 1) Professionals, and 2) Managers.
-
-\hypertarget{results}{%
-\section{Results}\label{results}}
-
-Average rating of each category by item and focus on the ones with low SDs.
-
-\hypertarget{discussion}{%
-\section{Discussion}\label{discussion}}
-
-Could be another piece of info onet uses along with descriptions -- could list resource challenge hinderance
 
 \hypertarget{materials}{%
 \subsection{Materials}\label{materials}}
@@ -197,10 +196,38 @@ We used 98 statements taken from O*NET \href{https://www.O*NETonline.org/find/de
 
 These \enquote{desriptors} have response categories \href{https://www.O*NETonline.org/find/descriptor/result/4.C.1.c.2}{see for example}. We used the O*NET wording to capture characteristics of relevance for each respondent. Subsequent to these self evaluations, each respondent who agreed that the element had \emph{at least some relevance} to their job was also asked to rate that element in terms of, 1) \ldots this aspect of your job is a resource that can be functional in achieving work goals, reduce job demands, or stimulate personal growth/development, 2) \ldots this aspect of your job is a challenge that can promote mastery, personal growth, or future gains, and 3) \ldots this aspect of your job is a hinderance that can inhibit personal growth, learning, and work goal attainment.
 
-\hypertarget{data-analysis}{%
-\subsection{Data analysis}\label{data-analysis}}
+\hypertarget{results}{%
+\section{Results}\label{results}}
 
-We used R (Version 4.0.3; R Core Team, 2020) and the R-package \emph{papaja} (Version 0.1.0.9997; Aust \& Barth, 2020) for all our analyses.
+Average rating of each category by item and focus on the ones with low SDs.
+
+\hypertarget{low-variability-demands-and-resources}{%
+\subsection{Low Variability Demands and Resources}\label{low-variability-demands-and-resources}}
+
+The below graphs present the resources, challenges, and hindrances that are \emph{largely agreed on} as indexed by (relatively) low standard deviations.
+
+\begin{quote}
+Note. The \enquote{zero} standard deviations are likely one person, \emph{n}'s should also go on these graphs if they're retained.
+\end{quote}
+
+\includegraphics{JDR_3_Crosswalk_files/figure-latex/resourceslowsd-1.pdf}
+
+\includegraphics{JDR_3_Crosswalk_files/figure-latex/challengesagree-1.pdf}
+
+\includegraphics{JDR_3_Crosswalk_files/figure-latex/hindrancesagree-1.pdf}
+
+As can be seen by the graphs, there is considerable disagreement regarding the degree to which job elements are considered \emph{hindrances}, with the 10 elements showing the greatest agreement still ranging in standard deviations from 0 to 1.18. What is widely seen as a resource and challenge tends to be more universally agreed upon (range of lowest 10 resource standard deviations is 0 to 0.88 and the range of lowest 10 challenge standard deviations is 0 to 0.87.
+
+\hypertarget{high-variability-demands-and-resources}{%
+\subsection{High Variability Demands and Resources}\label{high-variability-demands-and-resources}}
+
+The below graphs present the resources, challenges, and hindrances that are \emph{largely disagreed on} as indexed by (relatively) high standard deviations (these are the 10 characteristics with the greatest variability in rating).
+
+\includegraphics{JDR_3_Crosswalk_files/figure-latex/resourceshisd-1.pdf}
+
+\includegraphics{JDR_3_Crosswalk_files/figure-latex/challengeshighsd-1.pdf}
+
+\includegraphics{JDR_3_Crosswalk_files/figure-latex/hindranceshighsd-1.pdf}
 
 \newpage
 
@@ -212,9 +239,6 @@ We used R (Version 4.0.3; R Core Team, 2020) and the R-package \emph{papaja} (Ve
 \setlength{\leftskip}{0.5in}
 
 \hypertarget{refs}{}
-\leavevmode\hypertarget{ref-R-papaja}{}%
-Aust, F., \& Barth, M. (2020). \emph{papaja: Create APA manuscripts with R Markdown}. \url{https://github.com/crsh/papaja}
-
 \leavevmode\hypertarget{ref-bakker2014job}{}%
 Bakker, A. B., \& Demerouti, E. (2014). Job demands--resources theory. \emph{Wellbeing: A Complete Reference Guide}, 1--28.
 
@@ -241,9 +265,6 @@ Peterson, N. G., Mumford, M. D., Borman, W. C., Jeanneret, P. R., Fleishman, E. 
 
 \leavevmode\hypertarget{ref-podsakoff2007differential}{}%
 Podsakoff, N. P., LePine, J. A., \& LePine, M. A. (2007). Differential challenge stressor-hindrance stressor relationships with job attitudes, turnover intentions, turnover, and withdrawal behavior: A meta-analysis. \emph{Journal of Applied Psychology}, \emph{92}(2), 438.
-
-\leavevmode\hypertarget{ref-R-base}{}%
-R Core Team. (2020). \emph{R: A language and environment for statistical computing}. R Foundation for Statistical Computing. \url{https://www.R-project.org/}
 
 \leavevmode\hypertarget{ref-webster2011extending}{}%
 Webster, J. R., Beehr, T. A., \& Love, K. (2011). Extending the challenge-hindrance model of occupational stress: The role of appraisal. \emph{Journal of Vocational Behavior}, \emph{79}(2), 505--516.
