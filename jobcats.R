@@ -15,3 +15,6 @@ interrater <- read.csv("interrater.csv")
 library(irr)
 
 kappam.fleiss(interrater)  
+kappam.fleiss(interrater[1:2])
+kappam.fleiss(interrater[2:3])
+kappam.fleiss(interrater[c(1,3)])
