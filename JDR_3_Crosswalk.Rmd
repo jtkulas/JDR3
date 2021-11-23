@@ -1702,6 +1702,16 @@ write.csv(psych::describe(data[18:372]), "checkingrecodes.csv")
 
 ## Materials  
 
+```{r interrater}
+interrater <- read.csv("interrater.csv")
+
+library(irr)
+
+kappa <- kappam.fleiss(interrater)
+```
+
+Each free-field job title was placed into one of 14 possible O\*NET job families classifications. 60 of these ratings were performed by all 3 author raters, with a resulting Kappa of `r round(kappa$value,2)` [@landis1977measurement].
+
 ### Characteristics, Demands, and Resources  
 
 We used 98 statements taken from O\*NET ["activity" and "context" classifications](https://www.O\*NETonline.org/find/descriptor/result/4.A.1.b.3). We retained 41 "work activity" classifications which O\*NET groups into categories of "Information Input" (5 statements), "Interacting with Others" (17 statements), "Mental Processes" (10 statements) and "Work Output" (9 statements). 57 "work context" statements grouped into "Interpersonal Relationships" (14 statements), "Physical Work Conditions" (30 statements), and "Structural Job Characteristics" (13 statements).  
