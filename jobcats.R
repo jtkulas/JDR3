@@ -20,6 +20,23 @@ data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Farming Fi
 data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Construction and Extraction"] <- "Physical Labor"
 data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Building and Grounds Cleaning and Maintenance"] <- "Physical Labor"
 
+## with Alicia 12/1
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Architecture and Engineering"] <- "Computer & Engineering"
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Computer and Mathematical"] <- "Computer & Engineering"
+
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Life Physical and Social Science"] <- "Education, Science & Health"
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Educational Instruction and Library"] <- "Education, Science & Health"
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Healthcare Practitioner and Technical"] <- "Education, Science & Health"
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Community and Social Service"] <- "Education, Science & Health"
+
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Office and Administrative Support"] <- "Admin, Healthcare & Legal"
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Legal"] <- "Admin, Healthcare & Legal"
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Healthcare Support"] <- "Admin, Healthcare & Legal"
+
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Arts Design Entertainment Sports Media"] <- "Other"
+data$O.Net.Job.Family.Categories[data$O.Net.Job.Family.Categories == "Military Specific"] <- "Other"
+
+
 ggplot(data, aes(O.Net.Job.Family.Categories))+
   geom_histogram(stat="count") + coord_flip()
 
